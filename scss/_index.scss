@@ -1,0 +1,97 @@
+.body {
+  background-color: #f8f9fa;
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+  .logo-navbar {
+    height: 70px;
+  }
+  header {
+    background-color: #f8f9fa;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .navbar-collapse {
+    color: #f8f9fa;
+    display: none;
+    position: relative;
+  }
+  header .navbar-collapse ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .navbar-collapse ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 40px 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+  }
+}
+
+.main {
+  .titulo {
+    font-family: "Anton", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
+  }
+  .imagen-inicio {
+    height: 400px;
+    width: 100%;
+  }
+  .enlaces-inicio {
+    text-align: center;
+  }
+  .titulo-centrado {
+    font-family: "Anton", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
+    font-size: 8vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    padding: 15px;
+  }
+  .imagen-categorias {
+    height: 300px;
+    width: 25%;
+  }
+  .link-categorias {
+    background-color: #000000;
+    display: block;
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  .link-categorias:hover {
+    background-color: #494141;
+    border: 1px solid #000000;
+    color: #000000;
+    transition: 1s;
+  }
+  .pie-pagina {
+    text-align: right;
+    background-color: #000000;
+  }
+  .contenido-piepagina {
+    font-family: "Anton", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+  }
+}

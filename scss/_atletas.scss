@@ -19,10 +19,71 @@
   position: absolute;
   top: 7%;
   left: 50%;
-  color: #a39b9b;
   padding: 10px 20px;
   font-size: 20px;
   text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: oblique;
+  font-family: "Anton", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 15px;
+  color: #a39b9b;
+}
+
+.grid-container-atleta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-item-atleta {
+  background-color: #000000;
+  grid-column: 1/2;
+  grid-row: 1/1;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.grid-item-atleta h1 {
+  font-family: "Anton", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  font-size: 3vw;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  padding: 15px;
+  color: #a39b9b;
+}
+
+.grid-item-atleta p {
+  font-family: "Anton", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.grid-item-atleta-dos {
+  background-color: #000000;
+  grid-column: 2/2;
+  grid-row: 1/1;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.grid-item-atleta-dos img {
+  width: 100%;
+  border-radius: 5px;
 }

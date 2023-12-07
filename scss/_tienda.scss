@@ -1,48 +1,49 @@
-.titulo-tienda {
-  font-family: "Anton", sans-serif;
-  font-family: "Nunito Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 900;
-  font-size: 8vw;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1;
-  padding: 15px;
-}
-
-.columna {
-  width: 33.3%;
-  padding: 5px;
-}
-
-.fila {
-  display: flex;
-}
-
-.nombre-zapatilla {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Anton", sans-serif;
-  font-family: "Nunito Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: large;
-  padding-top: 5px;
-}
-
-.precio-zapatilla {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Anton", sans-serif;
-  font-family: "Nunito Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: large;
-}
-
-.imagenes-tienda {
-  display: flex;
-  justify-content: space-between;
-  border-radius: 5px;
+main {
+  section {
+    .titulo-tienda {
+      font-family: "Anton", sans-serif;
+      font-family: "Nunito Sans", sans-serif;
+      font-family: "Poppins", sans-serif;
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 900;
+      font-size: 8vw;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      padding: 15px;
+    }
+  }
+  section {
+    .fila {
+      display: flex;
+      .columna {
+        width: 33.3%;
+        padding: 5px;
+        .nombre-zapatilla {
+          display: flex;
+          justify-content: space-between;
+          font-family: "Anton", sans-serif;
+          font-family: "Nunito Sans", sans-serif;
+          font-family: "Poppins", sans-serif;
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: large;
+          padding-top: 5px;
+        }
+        .precio-zapatilla {
+          display: flex;
+          justify-content: space-between;
+          font-family: "Anton", sans-serif;
+          font-family: "Nunito Sans", sans-serif;
+          font-family: "Poppins", sans-serif;
+          font-family: "Roboto Condensed", sans-serif;
+          font-size: large;
+        }
+        .imagen-tienda {
+          display: flex;
+          justify-content: space-between;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
 }

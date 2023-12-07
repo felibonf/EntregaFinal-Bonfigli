@@ -24,6 +24,8 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:ital,wght@1,900&family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <!--Link Animacion-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body class="body">
@@ -78,8 +80,7 @@
     <main>
       <section>
         <h2 class="titulo-centrado">ATLETAS</h2>
-
-        <div class="fila-atletas">
+        <div class="fila-atletas" data-aos="fade-down" data-aos-duration="2500">
           <div class="columna-atletas">
             <img
               src="https://i.pinimg.com/originals/63/5b/e3/635be3c48342bec1712d4bdde1fe4622.jpg"
@@ -107,53 +108,61 @@
         </div>
       </section>
 
-      <section class="grid-container-atleta">
+      <section
+        class="grid-container-atleta"
+        data-aos="fade-down"
+        data-aos-duration="2500"
+      >
         <div class="grid-item-atleta">
           <h1>Michael Jordan</h1>
           <p>
-               Sin dudas, el atleta Nike mas importante de la historia. Hace 30 años, 
-               esta unión cambió la historia del deporte. En septiembre de 1984, el por entonces joven 
-               y prometedor Michael Jordan firmó un contrato de exclusividad con la marca Nike que lo 
-               convertiría en un ícono mundial.
+            Sin dudas, el atleta Nike mas importante de la historia. Hace 30
+            años, esta unión cambió la historia del deporte. En septiembre de
+            1984, el por entonces joven y prometedor Michael Jordan firmó un
+            contrato de exclusividad con la marca Nike que lo convertiría en un
+            ícono mundial.
           </p>
         </div>
         <div class="grid-item-atleta-dos">
-         <div>
-            <img
-              src="https://wallpapercave.com/wp/wp3268951.jpg"
-              alt=""
-            />
+          <div>
+            <img src="https://wallpapercave.com/wp/wp3268951.jpg" alt="" />
           </div>
         </div>
       </section>
 
-        <div class="fila-atletas">
-          <div class="columna-atletas">
+      <section>
+        <div
+          class="fila-atletas-dos"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
+          <div class="columna-atletas-dos">
             <img
               src="https://e1.pxfuel.com/desktop-wallpaper/451/113/desktop-wallpaper-cristiano-ronaldo-black-and-white-cr7-black.jpg"
               alt=" "
               style="width: 100%"
             />
-            <div class="nombre-atleta">Cristiano Ronaldo</div>
+            <div class="nombre-atleta-dos">Cristiano Ronaldo</div>
           </div>
-          <div class="columna-atletas">
+          <div class="columna-atletas-dos">
             <img
               src="https://pbs.twimg.com/media/FbsndOQWYAEPLnz.jpg:large"
               alt=" "
               style="width: 100%"
             />
-            <div class="nombre-atleta">Serena Williams</div>
+            <div class="nombre-atleta-dos">Serena Williams</div>
           </div>
-          <div class="columna-atletas">
+          <div class="columna-atletas-dos">
             <img
               src="https://pbs.twimg.com/media/FI38YAiVUAAELMK.jpg:large"
               alt=" "
               style="width: 100%"
             />
-            <div class="nombre-atleta">Russell Wilson</div>
+            <div class="nombre-atleta-dos">Russell Wilson</div>
           </div>
         </div>
       </section>
+    </main>
 
     <footer class="pie-pagina">
       <ul>
@@ -181,5 +190,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--Script Animaciones-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

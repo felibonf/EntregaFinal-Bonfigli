@@ -17,7 +17,7 @@ main {
     .fila-atletas {
       display: flex;
       .columna-atletas {
-        width: 33.3%;
+        flex: 33.3%;
         padding: 5px;
         display: inline-block;
         position: relative;
@@ -51,6 +51,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     margin-left: 3px;
+    gap: 0;
     .grid-item-atleta {
       background-color: #000000;
       grid-column: 1/2;
@@ -99,7 +100,7 @@ main {
   .fila-atletas-dos {
     display: flex;
     .columna-atletas-dos {
-      width: 33.3%;
+      flex: 33.3%;
       padding: 5px;
       display: inline-block;
       position: relative;
@@ -189,6 +190,30 @@ main {
       margin: 15px 0 10px 0;
       font-size: 1rem;
       font-weight: 300;
+    }
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .fila-atletas {
+    flex-direction: column;
+    .columna-atletas {
+      flex: 100%;
+    }
+    .nombre-atleta {
+      position: fixed;
+    }
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .fila-atletas-dos {
+    flex-direction: column;
+    .columna-atletas-dos {
+      flex: 100%;
+    }
+    .nombre-atleta-dos {
+      position: fixed;
     }
   }
 }

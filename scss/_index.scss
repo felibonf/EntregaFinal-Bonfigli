@@ -99,16 +99,21 @@
       box-sizing: border-box;
       .fila-categorias {
         display: flex;
-        width: 100vw;
         .columna-categorias {
           float: left;
-          //width: 25%;
+          flex: 25%;
           padding: 5px;
           .imagen-categorias {
             display: block;
             width: 100%;
             height: 400px;
           }
+        }
+        .columna-categorias:hover {
+          transform: translateY(-10px);
+          background-color: #333333;
+          color: #fff;
+          transition: 1s;
         }
       }
       .link-categorias {
@@ -242,7 +247,7 @@
   .fila-categorias {
     flex-direction: column;
     .columna-categorias {
-      width: 100%;
+      flex: 100%;
       margin-left: 10px;
       margin-right: 10px;
     }

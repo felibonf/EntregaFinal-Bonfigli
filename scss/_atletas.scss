@@ -217,3 +217,10 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 678px) {
+  .grid-container-atleta {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

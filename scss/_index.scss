@@ -46,23 +46,36 @@
     }
   }
   main {
-    .ofertas {
-      padding: 10px;
-      margin: 6px;
-      background: linear-gradient(white, white) padding-box,
-        linear-gradient(to right, #15eaf2, #3af725) border-box;
-      border-radius: 50em;
-      border: 5px solid transparent;
-      p {
-        font-family: "Anton", sans-serif;
-        font-family: "Nunito Sans", sans-serif;
-        font-family: "Poppins", sans-serif;
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 700;
-        font-size: 2vw;
+    .banner-descuento {
+      width: 100%;
+      background-size: cover;
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      padding: 40px 15px;
+      background: url(https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/tpqid8vgfey6m4ke86te/nike-joyride.jpg);
+      .titulo-descuento {
+        font-size: 130px;
+        font-weight: 800;
+        animation-delay: 1s;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+      }
+      a {
+        display: inline-block;
+        background: #fff;
+        color: #36465d;
         text-transform: uppercase;
-        text-align: center;
-        line-height: 1;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 40px;
+        transition: 0.3s;
+        border-radius: 5px;
+      }
+      a:hover {
+        background: #333;
+        color: #fff;
+        padding: 15px 20px;
       }
     }
     h1 {

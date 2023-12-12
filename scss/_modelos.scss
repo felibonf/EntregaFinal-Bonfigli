@@ -1,4 +1,19 @@
 main {
+  .modelos {
+    display: grid;
+    place-content: center;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 50px;
+    background-color: #333333;
+    p {
+      font-size: 2vw;
+      max-width: 75vw;
+      color: #fff;
+      .subtitulo {
+        background-image: linear-gradient(to top, #000, #333);
+      }
+    }
+  }
   .modelo {
     display: flex;
     //flex-direction: column;
@@ -7,6 +22,7 @@ main {
     align-items: center;
     padding: 10px;
     font-family: "Roboto", sans-serif;
+    background-color: #333333;
     .card-zapas {
       width: 48rem;
       height: 46rem;
@@ -59,99 +75,6 @@ main {
       }
     }
   }
-  /*.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    .grid-item-uno {
-      background-color: #000000;
-      grid-column: 1/2;
-      grid-row: 1/2;
-      padding: 16px;
-      border-radius: 5px;
-      h1 {
-        font-family: "Anton", sans-serif;
-        font-family: "Nunito Sans", sans-serif;
-        font-family: "Poppins", sans-serif;
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 900;
-        font-size: 3vw;
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 1;
-        padding: 15px;
-        color: #a39b9b;
-      }
-      p {
-        font-family: "Anton", sans-serif;
-        font-family: "Nunito Sans", sans-serif;
-        font-family: "Poppins", sans-serif;
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 900;
-        font-size: 2vw;
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 1;
-        padding: 15px;
-        color: #ffffff;
-      }
-    }
-    .grid-item-dos {
-      background-color: #000000;
-      grid-column: 2/2;
-      grid-row: 1/2;
-      padding: 16px;
-      border-radius: 5px;
-      img {
-        width: 100%;
-        border-radius: 5px;
-      }
-    }
-    .grid-item-tres {
-      background-color: #8d021f;
-      grid-column: 1/2;
-      grid-row: 2/2;
-      padding: 16px;
-      border-radius: 5px;
-      img {
-        width: 100%;
-        border-radius: 5px;
-      }
-    }
-    .grid-item-cuatro {
-      background-color: #8d021f;
-      grid-column: 2/2;
-      grid-row: 2/2;
-      padding: 16px;
-      border-radius: 5px;
-      h1 {
-        font-family: "Anton", sans-serif;
-        font-family: "Nunito Sans", sans-serif;
-        font-family: "Poppins", sans-serif;
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 900;
-        font-size: 3vw;
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 1;
-        padding: 15px;
-        color: #a39b9b;
-      }
-      p {
-        font-family: "Anton", sans-serif;
-        font-family: "Nunito Sans", sans-serif;
-        font-family: "Poppins", sans-serif;
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 900;
-        font-size: 2vw;
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 1;
-        padding: 15px;
-        color: #ffffff;
-      }
-    }
-  }*/
   .footer {
     position: relative;
     width: 100%;

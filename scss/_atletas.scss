@@ -16,6 +16,7 @@ main {
     }
     .fila-atletas {
       display: flex;
+      background-color: #333333;
       .columna-atletas {
         flex: 33.3%;
         padding: 5px;
@@ -99,6 +100,7 @@ main {
   }
   .fila-atletas-dos {
     display: flex;
+    background-color: #333333;
     .columna-atletas-dos {
       flex: 33.3%;
       padding: 5px;

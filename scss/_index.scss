@@ -191,6 +191,56 @@
       }
     }
   }
+  .suscripciones {
+    background: url(https://www.premieroutlet.hu/fileadmin/_processed_/e/f/csm_nike111_f2ade75485.jpg);
+    margin: 20px;
+    padding: 15px;
+    h5 {
+      display: flex;
+      text-align: center;
+      font-family: "Red Hat Display", sans-serif;
+      padding: 50px;
+      font-size: 2vw;
+      max-width: 75vw;
+      color: #000000;
+    }
+    .suscripcion-container {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      .suscripcion-inputs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        flex-grow: 1;
+        input {
+          color: #000000;
+          font-size: 1.2rem;
+          flex-grow: 1;
+          border: 0px;
+          border-radius: 8px;
+          padding: 8px 0px;
+          text-indent: 8px;
+          border: 2px solid #333333;
+          outline: none;
+        }
+        input:focus {
+          border: 2px solid #333333;
+        }
+      }
+      button {
+        cursor: pointer;
+        background-color: #000000;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 1.2rem;
+        flex-grow: 1;
+        white-space: nowrap;
+        padding: 8px 12px;
+        border: 0px;
+      }
+    }
+  }
   .footer {
     position: relative;
     width: 100%;

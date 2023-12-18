@@ -182,11 +182,20 @@
   transition: 1s;
 }
 .body .suscripciones {
-  background: url(https://www.premieroutlet.hu/fileadmin/_processed_/e/f/csm_nike111_f2ade75485.jpg);
+  background-color: #fe0000;
   margin: 20px;
   padding: 15px;
+  border-radius: 3px;
 }
-.body .suscripciones h5 {
+.body .suscripciones div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.body .suscripciones div img {
+  height: 100px;
+}
+.body .suscripciones div h5 {
   display: flex;
   text-align: center;
   font-family: "Red Hat Display", sans-serif;
@@ -309,6 +318,11 @@
 @media screen and (max-width: 678px) {
   .ingresos img {
     height: 300px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .suscripciones {
+    font-size: 86px;
   }
 }
 main section .titulo-tienda {

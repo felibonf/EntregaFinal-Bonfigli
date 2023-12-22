@@ -198,7 +198,8 @@
 .body .suscripciones div h5 {
   display: flex;
   text-align: center;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
   padding: 50px;
   font-size: 2vw;
   max-width: 75vw;
